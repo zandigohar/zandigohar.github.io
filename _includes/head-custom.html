@@ -1,20 +1,26 @@
+<!-- Google font -->
 <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<!-- Bootstrap 3 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.min.js"></script>
-
+<script  src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Typed.js for animated tagline -->
+<script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16"></script>
+<!-- Smooth-scroll for anchor links -->
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    new Typed('#typed-tagline', {
-      strings: ['PhD Candidate · UIC', 'Single-cell & Spatial Genomics', 'Generative AI Scientist'],
-      typeSpeed: 45, backSpeed: 25, backDelay: 2000, loop: true
+  document.addEventListener('DOMContentLoaded',() => {
+    // typed tagline
+    new Typed('#tagline', {
+      strings:['PhD Candidate&nbsp;@ UIC','Single-cell & Spatial Genomics','Generative AI Scientist'],
+      typeSpeed:45,backSpeed:25,backDelay:1500,loop:true
     });
-    // Smooth scroll
+    // smooth scroll
     document.querySelectorAll('#topnav a').forEach(a=>{
-      a.addEventListener('click', e=>{
+      a.addEventListener('click',e=>{
         e.preventDefault();
-        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+        document.querySelector(a.getAttribute('href'))
+                .scrollIntoView({behavior:'smooth'});
       });
     });
   });
 </script>
-
