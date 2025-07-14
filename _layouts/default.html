@@ -1,0 +1,17 @@
+---
+layout: null          # we’re defining the ultimate base layout
+---
+
+{% include topnav.html %}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include head.html %}
+
+  <body>
+    <!-- Main content -->
+    <main id="main" role="main">{{ content }}</main>
+
+    {% include scripts.html %}
+  </body>
+</html>
