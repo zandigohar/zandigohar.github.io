@@ -1,1 +1,20 @@
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Typed('#typed-tagline', {
+      strings: ['PhD Candidate · UIC', 'Single-cell & Spatial Genomics', 'Generative AI Scientist'],
+      typeSpeed: 45, backSpeed: 25, backDelay: 2000, loop: true
+    });
+    // Smooth scroll
+    document.querySelectorAll('#topnav a').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+      });
+    });
+  });
+</script>
+
