@@ -1,22 +1,22 @@
-/* === Nav bar === */
-#topnav {
-  background:#111; border:none; font-family:'PT Sans',sans-serif;
+/* ==== General ==== */
+body{font-family:'PT Sans',sans-serif; margin:0; overflow-x:hidden;}
+section{padding:70px 0;}
+h2.code{font-family:'JetBrains Mono',monospace; color:#00e676; margin:40px 0 25px;}
+/* ==== Navbar ==== */
+#topnav{background:#111;border:none;}
+#topnav .nav>li>a{color:#00e676;font-weight:bold;}
+#topnav .nav>li>a:hover{color:#fff;}
+html{scroll-padding-top:60px;} /* offset */
+/* ==== Hero ==== */
+#hero{
+  height:100vh; color:#fff; text-align:center;
+  background:#000 url('/assets/img/hero.jpg') center/cover fixed;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
 }
-#topnav .nav>li>a { color:#00e676; font-weight:bold; }
-#topnav .nav>li>a:hover { color:#fff; }
-
-/* === Hero section === */
-#hero {
-  height:100vh; background:#000 url('/assets/img/hero.jpg') center/cover fixed;
-  display:flex; flex-direction:column; justify-content:center; align-items:center;
-  text-align:center; color:#fff;
-}
-#hero h1 { font-size:3rem; letter-spacing:1px; margin-bottom:15px; }
-#typed-tagline { font-family:'PT Sans',sans-serif; font-size:1.25rem; }
-
-/* === Section headings === */
-h2.code { font-family:'JetBrains Mono',monospace; color:#00e676; margin-top:60px; }
-section { padding:60px 0; }
-
-/* Smooth-scroll offset (nav height) */
-html { scroll-padding-top:60px; }
+#hero h1{font-size:3.5rem;letter-spacing:1px;margin-bottom:10px;}
+#tagline{font-size:1.3rem;}
+/* ==== Experience cards ==== */
+.card{background:#1d1d1d;color:#ccc;border-radius:8px;padding:20px;margin-bottom:30px;
+      transition:transform .2s}
+.card:hover{transform:translateY(-5px);}
+.card .time{color:#00e676;font-size:.9rem;margin-top:8px;}
