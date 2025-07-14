@@ -1,5 +1,11 @@
-remote_theme: "mmistakes/minimal-mistakes"
-
+# Use Minimal Mistakes from GitHub
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"   # pin a GH-Pages-compatible release
 
 plugins:
-  - jekyll-include-cache
+  - jekyll-remote-theme   # makes the line above work
+  - jekyll-include-cache  # provides {% include_cached %}
+
+# (Optional but recommended)
+title: "Mehrdad Zandigohar"
+description: "Single-cell & spatial genomics · VAE/transformers · RAG pipelines"
+url: "https://zandigohar.github.io"
