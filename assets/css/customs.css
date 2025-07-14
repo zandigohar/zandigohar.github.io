@@ -1,0 +1,22 @@
+/* === Nav bar === */
+#topnav {
+  background:#111; border:none; font-family:'PT Sans',sans-serif;
+}
+#topnav .nav>li>a { color:#00e676; font-weight:bold; }
+#topnav .nav>li>a:hover { color:#fff; }
+
+/* === Hero section === */
+#hero {
+  height:100vh; background:#000 url('/assets/img/hero.jpg') center/cover fixed;
+  display:flex; flex-direction:column; justify-content:center; align-items:center;
+  text-align:center; color:#fff;
+}
+#hero h1 { font-size:3rem; letter-spacing:1px; margin-bottom:15px; }
+#typed-tagline { font-family:'PT Sans',sans-serif; font-size:1.25rem; }
+
+/* === Section headings === */
+h2.code { font-family:'JetBrains Mono',monospace; color:#00e676; margin-top:60px; }
+section { padding:60px 0; }
+
+/* Smooth-scroll offset (nav height) */
+html { scroll-padding-top:60px; }
