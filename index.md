@@ -1,58 +1,49 @@
 ---
 title: "Mehrdad Zandigohar"
-nav_order: 1
+layout: default         # uses your custom _layouts/default.html
 ---
 
-# Mehrdad Zandigohar
+<!--  Hero  -->
+<section id="hero">
+  {% include topnav.html %}
+  <h1>Mehrdad Zandigohar</h1>
+  <span id="typed-tagline"></span><br>
+  <a href="/assets/CV_mehrdad_v10.pdf" class="btn btn-default" style="margin-top:20px">
+    <code>&lt;resume&gt;</code>
+  </a>
+</section>
 
-*PhD Candidate · Single-cell & Spatial Genomics · Generative AI*
-
----
-
-## # about {#about .code}
+## <span id="about" class="code"># about</span>
 
 **PhD candidate in Bioinformatics (UIC, 2020 – 2025)**  
-Focused on generative AI for single-cell & spatial genomics.  
-I build *interpretable* VAEs, transformers, and retrieval-augmented pipelines to map transcription-factor networks and cell-cell communication.
+Generative AI for single-cell & spatial genomics—*interpretable* VAEs, transformers, RAG pipelines.
 
----
-
-## # experience {#experience .code}
+## <span id="experience" class="code"># experience</span>
 
 - **Graduate Research Assistant – U Illinois Chicago** (2023 – 2025)  
-  Developed **scRegulate**, a TF-aware VAE that outperforms leading tools by **10 – 50 %** on AUROC/AUPRC and remains robust under 30 % dropout noise.  
+  Created **scRegulate** (TF-aware VAE, AUROC ↑ 10 – 50 %).
 
 - **Research Assistant – UIC** (2021 – 2023)  
-  Benchmarked latent-inference models for sparse scATAC-seq; first-author paper at *IEEE BIBM 2022*.  
+  Benchmarked latent-inference models for sparse scATAC-seq (*IEEE BIBM 2022*).
 
 - **Lab Computing Lead – UIC** (2022 – present)  
-  Maintained three multi-user GPU servers, secured an NVIDIA GPU grant, and mentored 10 + researchers on CUDA workflows.  
+  Managed three GPU servers; won NVIDIA GPU grant; mentored 10 + researchers.
 
----
+## <span id="projects" class="code"># projects</span>
 
-## # projects {#projects .code}
+- **scRegulate** – open-source VAE, CI/CD, PyPI & Conda.  
+- **RAGulate** – LLM + PubMed evidence (in progress).  
+- **Uterine-Fibroid Atlas** – *Human Reproduction 2022*.
 
-- **scRegulate** – interpretable VAE for TF activity; open-source with CI/CD, PyPI & Conda packages.  
+## <span id="publications" class="code"># publications</span>
 
-- **RAGulate** – retrieval-augmented LLM framework validating TF–gene links with PubMed evidence (in progress).  
+- **scRegulate…** *bioRxiv* 2025.  
+- **Macrophage Heterogeneity…** *J Immunol* 2024.  
+- **Information Retrieval…** *IEEE BIBM* 2022.
 
-- **Single-cell Atlas of Uterine Fibroids** – mapped 16 cell types and novel fibroblast subtypes (*Human Reproduction 2022*).  
-
----
-
-## # publications {#publications .code}
-
-- Zandigohar M *et al.* **scRegulate: Single-Cell Regulatory-Embedded Variational Inference…** *bioRxiv* 2025.  
-
-- Zandigohar M *et al.* **Macrophage Heterogeneity during Skin Wound Healing.** *J Immunol* 2024.  
-
-- Zandigohar M *et al.* **Information Retrieval in Single-Cell Chromatin Analysis.** *IEEE BIBM* 2022.  
-
----
-
-## # contact {#contact .code}
+## <span id="contact" class="code"># contact</span>
 
 - **Email:** mzandi2@uic.edu  
-- **GitHub:** <https://github.com/zandigohar>  
-- **LinkedIn:** <https://linkedin.com/in/zandigohar>  
-- **CV (PDF):** [Download](/assets/CV_mehrdad_v10.pdf)  
+- **GitHub:** https://github.com/zandigohar  
+- **LinkedIn:** https://linkedin.com/in/zandigohar  
+- **CV (PDF):** [Download](/assets/CV_mehrdad_v10.pdf)
