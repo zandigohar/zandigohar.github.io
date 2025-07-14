@@ -9,3 +9,14 @@ plugins:
 title: "Mehrdad Zandigohar"
 description: "Single-cell & spatial genomics · VAE/transformers · RAG pipelines"
 url: "https://zandigohar.github.io"
+
+
+minimal_mistakes_skin: "dark"      # code-like palette
+search: false                      # no search box
+toc: false                         # hide sidebars
+header:
+  teaser: ""                       # kill header image
+defaults:
+  - scope: {path: ""}              # every page
+    values:
+      layout: "single"             # single column, no sidebar
