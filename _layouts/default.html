@@ -1,17 +1,16 @@
 ---
-layout: null          # we’re defining the ultimate base layout
+layout: null
 ---
 
-{% include topnav.html %}
-
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  {% include head.html %}
-
+<html lang="en">
+  <head>
+    {% include head.html %}            <!-- SEO tags from Minimal Mistakes -->
+    {% include head-custom.html %}     <!-- our own fonts + JS -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <title>{{ page.title }}</title>
+  </head>
   <body>
-    <!-- Main content -->
-    <main id="main" role="main">{{ content }}</main>
-
-    {% include scripts.html %}
+    {{ content }}                      <!-- each page injects its own HTML -->
   </body>
 </html>
