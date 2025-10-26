@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -64,14 +63,6 @@
   </div>
 </nav>
 
-<!-- ===== Hero ===== -->
-<section id="hero">
-  <h1>Mehrdad Zandigohar</h1>
-  <span id="tagline"></span><br>
-  <a class="btn btn-default" href="/assets/CV_mehrdad_v10.pdf" style="margin-top:20px">
-    <code>&lt;resume&gt;</code>
-  </a>
-</section>
 
 <!-- ===== About ===== -->
 <section id="about">
