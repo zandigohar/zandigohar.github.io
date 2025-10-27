@@ -1,16 +1,26 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
+# Leadership & Technical Operations (uses the "projects" loop)
+- project: "Leadership in Lab Computing & Mentorship"
+  role: "University of Illinois Chicago"
+  duration: "2022 – present"
+  description: >
+    <ul class="resume-item-list">
+      <li>Infrastructure & operations: configured remote access; maintained 3 multi-user GPU servers (CUDA/Conda, upgrades) supporting ~10 researchers; managed job scheduling and user access</li>
+      <li>Procurement & grants: led hardware procurement and setup; secured an NVIDIA GPU hardware grant (DGX Spark)</li>
+      <li>Mentorship & collaboration: mentored 10+ trainees on GPU use, coding best practices, and workflows; built internal docs and streamlined reproducible pipelines</li>
+    </ul>
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: "NVIDIA/scverse Accelerate Omics Hackathon"
+  role: "Remote on NVIDIA Brev"
+  duration: "2025"
+  description: >
+    <ul class="resume-item-list">
+      <li>Integrated Dask into decoupleR on NVIDIA Brev to parallelize TF activity on CPUs/GPUs; scaled to ~1M cells</li>
+    </ul>
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: "Leadership & Service: Graduate Student Council Member"
+  role: "University of Illinois Chicago"
+  duration: "2022 – 2023"
+  description: >
+    <ul class="resume-item-list">
+      <li>Contributed to policy discussions and funding decisions; advocated graduate student needs across departments</li>
+    </ul>
