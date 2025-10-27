@@ -1,6 +1,6 @@
 # Experience
-- company: "Collaboration with Northwestern"
-  position: "Spatial Transcriptomics in MED12/HMGA2 Fibroids"
+- company: "University of Illinois Chicago"
+  position: "Spatial Transcriptomics in MED12/HMGA2 Fibroids (Collaboration with Northwestern)"
   duration: "2025 – present"
   summary: >
     Discovered tumor-specific signaling rewiring and ligand-receptor interactions, highlighting genetic subtype–specific pathways.
@@ -9,8 +9,8 @@
       <li>Subtype comparisons across MED12 vs. HMGA2 genetic variants</li>
     </ul>
 
-- company: "Collaboration with UCSF"
-  position: "Single-Cell Atlas of Uterine Fibroids and Myometrium"
+- company: ""
+  position: "Single-Cell Atlas of Uterine Fibroids and Myometrium (Collaboration with UCSF)"
   duration: "2021 – 2022"
   summary: >
     Processed 100k single-cell RNA-seq profiles from fibroid and myometrium tissue.
@@ -20,8 +20,8 @@
       <li>Co-authored publication in Human Reproduction (41+ citations)</li>
     </ul>
 
-- company: "Collaboration with UIC"
-  position: "Transcription Factor Activity in Wound Healing (Immunology + Epigenomics)"
+- company: ""
+  position: "Transcription Factor Activity in Wound Healing (Immunology + Epigenomics) (Collaboration with UIC)"
   duration: "2022 – 2024"
   summary: >
     Modeled macrophage TF programs in wound healing using scRNA-seq with ATAC/ChIP priors.
@@ -30,8 +30,8 @@
       <li>Published in The Journal of Immunology (Top Read Article, 2024)</li>
     </ul>
 
-- company: "Collaboration with Northwestern"
-  position: "Multi-omics and Spatial Transcriptomics in Disease Models: Role of progesterone action in inguinal hernia"
+- company: ""
+  position: "Multi-omics and Spatial Transcriptomics in Disease Models: Role of progesterone action in inguinal hernia (Collaboration with Northwestern)"
   duration: "2023 – 2025"
   summary: >
     Integrated scRNA-seq, scATAC-seq, and Xenium spatial data in mouse hernia models; discovered Pgr⁺ fibroblast subtype driving fibrosis.
@@ -41,7 +41,7 @@
       <li>Handled GEO deposition, metadata curation, and reproducibility; co-authored JCI Insight</li>
     </ul>
 
-- company: "University of Illinois Chicago"
+- company: ""
   position: "Graduate Research Assistant — Information Retrieval in Sparse & High-Dimensional Genomic Data"
   duration: "2021 – 2023"
   summary: >
@@ -51,7 +51,7 @@
       <li>First-author publication at IEEE BIBM 2022</li>
     </ul>
 
-- company: "University of Illinois Chicago"
+- company: ""
   position: "Graduate Research Assistant — scRegulate: Interpretable Generative Model for TF Activity"
   duration: "2023 – 2025"
   summary: >
@@ -62,7 +62,7 @@
       <li>bioRxiv preprint (2025); under review (Bioinformatics); <a href="https://github.com/YDaiLab/scRegulate" target="_blank" rel="noopener">code</a></li>
     </ul>
 
-- company: "University of Illinois Chicago"
+- company: ""
   position: "PhD Candidate — RAGulate: Retrieval-Augmented Generation for Literature-Guided Genomics"
   duration: "2025 – present"
   summary: >
