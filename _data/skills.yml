@@ -1,12 +1,23 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Bioinformatics
+  description: Gene regulation (GRNs), peak calling, scRNA-seq, scATAC-seq, spatial transcriptomics, multi-omics, cell-cell communication, barcode decontamination, trajectory inference, biomarker discovery, GO/GSEA, comparative analysis
+  
+- skill: Bioinformatics Tools
+  description: Snakemake, Cell-Ranger/Space-Ranger/ARC, Scanpy, Seurat, Bioconductor, scverse
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Infrastructure & DevOps
+  description: Git, Docker, Conda, Jupyter, AWS, CI/CD (GitHub Actions), SLURM, NVIDIA Brev
+  
+- skill: Programming
+  description: Python, R, Bash, MATLAB, C/C++, SQL
+
+- skill: Data Science & ML
+  description: Deep learning, generative models (VAEs, transformers), retrieval-augmented generation (RAG), statistical modeling, data mining
+
+- skill: ML Frameworks
+  description: PyTorch, Hugging Face (BioBERT/BioGPT/sentence-transformers), LlamaIndex
+  
+- skill: Distributed & GPU Computing
+  description: Dask, RAPIDS, PyTorch CUDA, cuDF/cuML, parallel I/O, GPU profiling
+  
