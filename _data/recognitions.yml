@@ -1,6 +1,6 @@
 # Recognitions
 - award: "Top Read Article: Transcription Factor Activity Regulating Macrophage Heterogeneity during Skin Wound Healing"
-  description: "The Journal of Immunology"
+  summary: "The Journal of Immunology"
   organization: "The Journal of Immunology"
   year: 2024
 
@@ -10,7 +10,7 @@
 
 - award: "Graduate Student Council (GSC) Award"
   organization: "University of Illinois at Chicago"
-  year: [2023, 2025]
+  year: 2023-2025
 
 - award: "NSF Student Travel Awards"
   organization: "ACM-BCB & IEEE BIBM [AWD-003814; AWD-2131662]"
