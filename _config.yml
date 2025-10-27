@@ -22,7 +22,7 @@ resume_contact_address:         "UIC Biomedical Engineering (MC 563), 820 S. Woo
 resume_header_contact_info:     "820 S. Wood St., Chicago • mzandi2@uic.edu"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>PhD candidate (Graduating in December) applying AI/ML to disease biology. Developed scRegulate (TF activity inference) and RAGulate (literature-guided TF validation). Collaborated with UIC/UCSF/Northwestern to uncover new fibroblast and immune cell programs in fibroid tumors, hernia fibrosis, and wound healing.</p>"
+resume_header_intro: "<p>PhD candidate (Graduating in December) applying AI/ML to disease biology. Developed scRegulate (TF activity inference) and RAGulate (literature-guided TF validation). Collaborated with UIC, UCSF, and Northwestern to uncover new fibroblast and immune cell programs in fibroid tumors, hernia fibrosis, and wound healing.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
