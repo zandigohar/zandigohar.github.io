@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Mehrdad's Resume"
+description: "A resume for Jekyll and GitHub Pages sites."
 
 # Build settings
 markdown: kramdown
@@ -17,10 +17,9 @@ resume_title:                   "PhD Candidate"
 resume_contact_email:           "mzandi2@uic.edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_address:         "UIC Biomedical Engineering (MC 563), 820 S. Wood St., CSN W125"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "820 S. Wood St., Chicago • mzandi2@uic.edu"
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p>PhD candidate (Graduating in December) applying AI/ML to disease biology. Developed scRegulate (TF activity inference) and RAGulate (literature-guided TF validation). Collaborated with UIC/UCSF/Northwestern to uncover new fibroblast and immune cell programs in fibroid tumors, hernia fibrosis, and wound healing.</p>"
