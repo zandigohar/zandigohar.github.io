@@ -1,0 +1,136 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if site.plugins contains "jekyll-seo-tag" %}{% seo %}{% endif %}
+  <style>
+    :root { --ink:#0f172a; --muted:#64748b; --bg:#fff; --card:#0b1220; --cardtxt:#cbd5e1; --accent:#2563eb; color-scheme: light dark; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0b1020; --ink:#e5e7eb; --muted:#94a3b8; --card:#0f172a; --cardtxt:#cbd5e1; } }
+    *{ box-sizing:border-box }
+    body{ margin:0; font:15px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:var(--bg); color:var(--ink) }
+    .wrap{ max-width:980px; margin:0 auto; padding:28px 18px }
+    h1{ font-size:32px; margin:0 0 4px }
+    h2{ font-size:18px; margin:26px 0 10px; letter-spacing:.02em }
+    p,li{ color:var(--ink) }
+    .muted{ color:var(--muted) }
+    a{ color:var(--accent); text-decoration:none } a:hover{ text-decoration:underline }
+    .row{ display:grid; grid-template-columns:repeat(12,1fr); gap:16px }
+    .col-4{ grid-column: span 4 } .col-6{ grid-column: span 6 } .col-8{ grid-column: span 8 } .col-12{ grid-column: span 12 }
+    @media (max-width:800px){ .col-4,.col-6,.col-8{ grid-column: span 12 } }
+    .chip{ display:inline-block; padding:4px 8px; border-radius:999px; background:#eef2ff; color:#3730a3; font-size:12px; margin:4px 6px 0 0 }
+    @media (prefers-color-scheme: dark){ .chip{ background:#111827; color:#93c5fd } }
+    .card{ background:var(--card); color:var(--cardtxt); padding:14px 16px; border-radius:14px; }
+    .meta{ color:var(--muted); font-size:13px; margin-top:2px }
+    .grid{ display:grid; gap:12px }
+    hr{ border:0; height:1px; background:#e5e7eb; margin:22px 0 } @media (prefers-color-scheme: dark){ hr{ background:#1f2937 } }
+    /* print */
+    @media print{ a[href]:after{ content:" (" attr(href) ")"; font-weight:normal } .chip{ border:1px solid #999 } }
+    nav{ display:flex; gap:14px; flex-wrap:wrap; margin:10px 0 18px }
+    nav a{ font-size:14px }
+    header .links a{ margin-right:12px }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>{{ site.title | default: "Mehrdad Zandigohar" }}</h1>
+      <div class="muted">{{ site.description | default: "AI + single cell genomics | scRegulate, RAGulate" }}</div>
+      <div class="links" style="margin-top:8px;">
+        <a href="mailto:mzandi2@uic.edu">Email</a>
+        <a href="https://github.com/zandigohar" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/mehrdadzandigohar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ site.cv_url | default: '/Mehrdad_Zandigohar_CV.pdf' }}" target="_blank" rel="noopener">CV</a>
+      </div>
+      <nav>
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <hr>
+    </header>
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>Final-year Bioinformatics PhD at UIC bridging ML and single-cell genomics. Creator of <strong>scRegulate</strong> and <strong>RAGulate</strong>. I build interpretable VAEs, transformers, and retrieval-augmented pipelines for TF activity, GRNs, and cell to cell communication with reproducible GPU workflows.</p>
+      <div>
+        <span class="chip">PyTorch</span><span class="chip">Scanpy</span><span class="chip">RAPIDS/Dask</span>
+        <span class="chip">Snakemake</span><span class="chip">AWS</span>
+        <span class="chip">scRNA-seq</span><span class="chip">scATAC-seq</span><span class="chip">Spatial</span>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="row grid">
+        <div class="col-4 card">
+          <strong>ML & engineering</strong>
+          <div class="meta">VAEs, transformers, contrastive; PyTorch, Lightning; GPU optimization</div>
+        </div>
+        <div class="col-4 card">
+          <strong>Single-cell & spatial</strong>
+          <div class="meta">scRNA-seq, scATAC-seq, multiome; Visium, Xenium; GRNs, CCC</div>
+        </div>
+        <div class="col-4 card">
+          <strong>Reproducibility</strong>
+          <div class="meta">Snakemake, Conda, Docker, GitHub Actions; Zenodo, RTD</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <strong>Graduate Research Assistant — University of Illinois Chicago</strong>
+        <div class="meta">2023–2025</div>
+        <p>Built scRegulate, a TF-aware VAE; improved AUROC across datasets and remained robust under heavy dropout.</p>
+      </article>
+      <article>
+        <strong>Research Assistant — UIC</strong>
+        <div class="meta">2021–2023</div>
+        <p>Benchmarked latent inference for sparse scATAC-seq; first-author paper at IEEE BIBM 2022.</p>
+      </article>
+      <article>
+        <strong>Lab Computing Lead — UIC</strong>
+        <div class="meta">2022–present</div>
+        <p>Managed three GPU servers, won an NVIDIA GPU grant, mentored researchers on CUDA workflows.</p>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong><a href="https://github.com/YDaiLab/scRegulate" target="_blank" rel="noopener">scRegulate</a></strong> — regulatory-embedded VAE for TF activity; GPU-accelerated, reproducible.</li>
+        <li><strong>RAGulate</strong> — RAG pipeline linking TF–target predictions to literature evidence.</li>
+        <li><strong>STELLAR</strong> — signal-transduction modeling integrating LR priors with GRNs in spatial data.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><em>scRegulate: Single-Cell Regulatory-Embedded Variational Inference of TF Activity</em>. Bioinformatics, in revision, 2025.</li>
+        <li><em>Macrophage heterogeneity during skin wound healing</em>. J Immunol, 2024.</li>
+        <li><em>Information retrieval in single-cell chromatin analysis</em>. IEEE BIBM, 2022.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:mzandi2@uic.edu">mzandi2@uic.edu</a> ·
+        <a href="https://github.com/zandigohar" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/mehrdadzandigohar" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="{{ site.cv_url | default: '/Mehrdad_Zandigohar_CV.pdf' }}" target="_blank" rel="noopener">CV</a>
+      </p>
+    </section>
+  </div>
+</body>
+</html>
