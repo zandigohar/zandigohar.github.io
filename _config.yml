@@ -47,6 +47,8 @@ resume_social_links:
   resume_github_url:            "https://github.com/zandigohar"
   resume_linkedin_url:          "https://www.linkedin.com/in/zandigohar/"
   resume_website_url:           "https://zandigohar.github.io/"
+  resume_scholar_url:           "https://scholar.google.com/citations?user=93__-C4AAAAJ&hl=en"
+  
 resume_print_social_links:      true
 
 # Design settings
